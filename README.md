@@ -14,17 +14,17 @@ By creating models from empirical data, we can reduce casualties due to crashes 
 * `data/` - Cleaned and prepared data sources. NOTE - Not all data exists here -- see Resources section below.
 * `analysis/` - iPyton notebook files (which you can view right here on GitHub) loading the data and exploring a few things. Good to understand the datasets and get ideas for your project.
 
-## Data Quirks
-#### Important things to know or notice
+## Data
 
 `data/hazmat_incidents.csv`
 * This is a full dataset pull from The Office of Hazardous Materials Safety's [Incident Reports Database](https://hazmatonline.phmsa.dot.gov/IncidentReportsSearch/IncrSearch.aspx)
 
-## Resources
+`data/freight_data.csv`
+* This is the full dataset from the [Freight Analysis Framework](http://www.ops.fhwa.dot.gov/freight/freight_analysis/faf/) of the Federal Highway Administration. It details the mass flow of cargo within the US.</li>
+* To understand it, read the [User Guide](http://www.ops.fhwa.dot.gov/freight/freight_analysis/faf/faf3/userguide/index.htm)
 
-<p>Transportation of hazardous materials:</p>
+<p>More data sources:</p>
 <ul>
-    <li><a href="http://www.ops.fhwa.dot.gov/freight/freight_analysis/faf/">Freight Analysis Framework</a> from the Federal Highway Administration</li>
     <li><a href="http://www.eia.gov/opendata/index.cfm">Energy Information Administration (EIA) open data</a></li>
     <li><a href="http://energy.gov/fe/downloads/electronic-docket-room-e-docket-room">Department of Energy data</a> on the registration of import/export permits for LNG at the Office of Fossil Energy</li>
     <li><a href="http://www.ferc.gov/industries/gas/indus-act/lng.asp">Federal Energy Regulatory Commission (FERC) data</a> on LNG terminals and other facilities</li>
